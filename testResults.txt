@@ -1,0 +1,63 @@
+PASS ./apiTests.test.ts (5.077 s)
+  Outdoor Adventures Integration and Peformance Testing
+    Making sure api is up
+      ✓ api status (279 ms)
+    Parks route tests
+      ✓ Parks route called with page: 1 and limit: 10 (173 ms)
+      ✓ Parks route called with page: 1 and limit: 25 (175 ms)
+      ✓ Parks route called with page: 1 and limit: 50 (183 ms)
+      ✓ Parks route called with page: 2 and limit: 10 (182 ms)
+      ✓ Parks route called with page: 2 and limit: 25 (179 ms)
+      ✓ Parks route called with page: 2 and limit: 50 (177 ms)
+      ✓ Parks route called with page: 3 and limit: 50 (173 ms)
+      ✓ Parks route called with page: 4 and limit: 50 (202 ms)
+      ✓ Parks route called with page: 5 and limit: 50 (178 ms)
+      ✓ Parks route called with page: 6 and limit: 50 (178 ms)
+      ✓ Parks route called with page: 7 and limit: 50 (182 ms)
+      ✓ Parks route called with page: 8 and limit: 50 (187 ms)
+      ✓ Parks route called with page: 9 and limit: 50 (182 ms)
+      ✓ Parks route called with page: 10 and limit: 50 (165 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       15 passed, 15 total
+Snapshots:   0 total
+Time:        5.162 s, estimated 6 s
+Ran all test suites matching /apiTests/i.
+
+PARKS MISSING DESIGNATION 
+------------------------- 
+African American Civil War Memorial
+Alaska Public Lands
+Alcatraz Island
+Arlington House, The Robert E. Lee Memorial
+Capitol Hill Parks
+Chesapeake Bay
+Civil War Defenses of Washington
+Constitution Gardens
+Ford's Theatre
+Fort Dupont Park
+Franklin Delano Roosevelt Memorial
+Great Egg Harbor River
+Green Springs
+Harmony Hall
+Iñupiat Heritage Center
+Kenilworth Park & Aquatic Gardens
+Korean War Veterans Memorial
+LBJ Memorial Grove on the Potomac
+Lincoln Memorial
+Maine Acadian Culture
+Martin Luther King, Jr. Memorial
+National Capital Parks-East
+National Mall and Memorial Parks
+National Park of American Samoa
+National Parks of New York Harbor
+Oxon Cove Park & Oxon Hill Farm
+Pennsylvania Avenue
+President's Park (White House)
+Presidio of San Francisco
+Theodore Roosevelt Island
+Thomas Jefferson Memorial
+Washington Monument
+Wolf Trap National Park for the Performing Arts
+World War I Memorial
+World War II Memorial

@@ -32,3 +32,5 @@ export const parkDataParameters = [
 ];
 
 export const parkDataResultKeys = ['fullname', 'parkcode', 'states', 'designation'];
+
+// node --loader ts-node/esm parkDataChecker.ts

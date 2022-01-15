@@ -31,7 +31,13 @@ const recordMissingData = async () => {
       }
     });
 
-    console.log(result);
+    let dataToAppend = '\nPARKS MISSING DESIGNATION \n------------------------- \n';
+
+    result.forEach((park) => {
+      dataToAppend += `${park.name}\n`;
+    });
+
+    fs.appendFileSync('./testResults.txt', dataToAppend);
   } catch (err) {
     console.log(err);
   }
