@@ -15,7 +15,7 @@ export type parksPaginatedResult = {
 };
 
 export type parksApiRouteResponse = {
-  status: number;
+  status?: number;
   data: parksPaginatedResult;
 };
 
