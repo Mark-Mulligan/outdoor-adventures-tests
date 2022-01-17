@@ -23,6 +23,7 @@ describe('Outdoor Adventures Integration and Peformance Testing', () => {
       const calculatedStart = (page - 1) * limit + 1;
       const calculatedEnd = calculateDataEnd(page, limit, 465);
       const calculatedResultLength = calculateNumResult(page, limit, 465);
+
       expect(status).toBe(200);
       expect(data.totalPages).toBe(Math.ceil(data.totalResults / limit));
       expect(data.totalResults).toBe(465);
